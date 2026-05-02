@@ -1,3 +1,6 @@
- int a=3,b=4.2,c=23;
-    a+b+c;
-    cout<<a+b+c<<endl;
+int a,b;
+    cin>>a>>b;
+    int temp=a;
+    a=b;
+    b=temp;
+    cout<<"a:"<<a<<" b:"<<b<<endl;
